@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-""" 
-random comment 
+"""
+random comment
 """
 import json
 import MySQLdb
