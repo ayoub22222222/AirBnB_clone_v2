@@ -1,4 +1,4 @@
-i#!/usr/bin/env bash
+#!/usr/bin/env bash
 #Bash script that sets up web servers for the deployment of web_static.
 
 sudo apt-get update
