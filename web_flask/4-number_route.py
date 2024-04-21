@@ -35,6 +35,7 @@ def python_text(text="is cool"):
     out_put = "Python {}".format(text)
     return out_put.replace("_", " ")
 
+
 @app.route("/number/<int:n>", strict_slashes=False)
 def number_text(n):
     """ display C with a given input """
