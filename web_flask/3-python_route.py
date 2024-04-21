@@ -29,10 +29,13 @@ def hbnb_text(text):
 
 
 @app.route("/python/<text>", strict_slashes=False)
-def python_text(text):
+def python_text(text="is cool"):
     """ display C with a given input """
-    out_put = "Python {}".format(text)
-    return out_put.replace("_", " ")
+    if text == "is cool":
+       return "Pyhton {}".format(text)
+    else:
+        out_put = "Python {}".format(text)
+        return out_put.replace("_", " ")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
